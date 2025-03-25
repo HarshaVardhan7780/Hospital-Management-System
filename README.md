@@ -70,7 +70,7 @@ mvn test
 ```
 HospitalManagementSystem/
 │── src/
-│   ├── main/java/com/hms/
+│   ├── main
 │   │   ├── model/                # Entity Classes
 │   │   │   ├── Patient.java
 │   │   ├── service/              # Business Logic
@@ -80,7 +80,7 @@ HospitalManagementSystem/
 │   │   ├── controller/           # API Endpoints
 │   │   │   ├── PatientController.java
 │── src/
-│   ├── test/java/com/hms/
+│   ├── test
 │   │   ├── service/
 │   │   │   ├── PatientServiceTest.java
 │── docs/
